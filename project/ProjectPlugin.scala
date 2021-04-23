@@ -40,7 +40,7 @@ object ProjectPlugin extends AutoPlugin {
         "io.circe"          %% "circe-parser"        % "0.13.0",
         "org.http4s"        %% "http4s-blaze-client" % "0.21.22",
         "com.47deg"         %% "github4s"            % "0.28.3",
-        "org.typelevel"     %% "cats-effect"         % "2.4.1",
+        "org.typelevel"     %% "cats-effect"         % "3.0.1",
         "io.chrisdavenport" %% "log4cats-slf4j"      % "1.1.1",
         "ch.qos.logback"     % "logback-classic"     % "1.2.3",
         "com.nrinaudo"      %% "kantan.csv"          % "0.6.1",
