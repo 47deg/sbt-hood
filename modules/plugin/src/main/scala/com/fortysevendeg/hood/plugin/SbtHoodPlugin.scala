@@ -20,7 +20,7 @@ import java.io.File
 
 import cats.data.{EitherT, NonEmptyChain}
 import cats.implicits._
-import cats.effect.{ConcurrentEffect, Console, ContextShift, IO, Sync}
+import cats.effect.{ConcurrentEffect, Console, IO, Sync}
 import com.fortysevendeg.hood.benchmark.{BenchmarkComparisonResult, BenchmarkService, Warning}
 import com.fortysevendeg.hood.csv.{BenchmarkColumns, CsvService}
 import com.fortysevendeg.hood.model._
